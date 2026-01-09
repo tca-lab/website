@@ -10,7 +10,7 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "TCA Grup | İç ve Dış Ticaret",
   description:
-    "Providing seamless import and strategic e-commerce solutions for premium products. Bridging global quality with local markets.",
+    "Premium ürünler için kesintisiz ithalat ve stratejik e-ticaret çözümleri sunuyor; küresel kaliteyi yerel pazarlarla buluşturuyoruz.",
   generator: "v0.app",
   icons: {
     icon: [

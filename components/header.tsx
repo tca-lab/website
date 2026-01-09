@@ -26,7 +26,7 @@ export function Header() {
               alt="TCA Grup Dış Ticaret Limited Şirketi"
               width={550}
               height={180}
-              className="h-32 w-auto"
+              className="h-36 w-auto"
               priority
             />
           </div>

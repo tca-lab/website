@@ -51,7 +51,7 @@ export function ContactSection() {
           </a>
 
           <a
-            href="https://wa.me/905XXXXXXXXX"
+            href="https://wa.me/905467665142"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 text-[#333333] hover:text-[#666666] transition-colors group"

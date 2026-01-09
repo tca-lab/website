@@ -61,7 +61,7 @@ export function ContactSection() {
             </div>
             <div>
               <div className="text-xs font-light text-[#999999] tracking-wide mb-1">WhatsApp</div>
-              <div className="text-sm font-light tracking-wide">+90 5XX XXX XX XX</div>
+              <div className="text-sm font-light tracking-wide">+90 546 766 51 42 </div>
             </div>
           </a>
 

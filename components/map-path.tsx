@@ -33,7 +33,7 @@ export function MapPath() {
   return (
     <svg
       ref={svgRef}
-      className="fixed inset-0 w-full h-full pointer-events-none z-[10]"
+      className="fixed inset-0 w-full h-full pointer-events-none z-[1]"
       viewBox="0 0 1440 900"
       preserveAspectRatio="none"
       fill="none"
@@ -41,28 +41,27 @@ export function MapPath() {
       {/* Main treasure map path */}
       <path
         ref={pathRef}
-        d="M 120 90
-           L 120 220
-           Q 120 260, 320 260
-           L 720 260
-           Q 980 260, 980 320
-           L 980 380
-           Q 900 420, 760 420
-           L 560 420
-           Q 420 420, 420 480
-           L 420 520
-           Q 420 560, 640 560
-           L 880 560
-           Q 1100 560, 1180 520
-           L 1220 620
-           L 1220 700
-           Q 1220 740, 900 720
-           Q 600 700, 260 620
-           L 200 640
-           Q 160 680, 220 720
-           Q 160 760, 220 800
-           Q 280 840, 360 840
-           Q 420 840, 480 860"
+        d="M 120 80
+           L 120 180
+           Q 120 200, 140 200
+           L 600 200
+           Q 620 200, 620 220
+           L 620 320
+           Q 620 340, 600 340
+           L 200 340
+           Q 180 340, 180 360
+           L 180 480
+           Q 180 500, 200 500
+           L 900 500
+           Q 920 500, 920 520
+           L 920 600
+           Q 920 620, 900 620
+           L 400 620
+           Q 380 620, 380 640
+           L 380 740
+           Q 380 760, 400 760
+           L 720 760
+           L 720 860"
         stroke="white"
         strokeWidth="1"
         strokeDasharray="8 8"
@@ -108,7 +107,7 @@ export function MapPath() {
       <circle cx="120" cy="80" r="2" fill="white" opacity="0.4" />
 
       {/* End marker - small "X" at mail */}
-      <g opacity="0.25" transform="translate(480, 860)">
+      <g opacity="0.25" transform="translate(720, 860)">
         <line x1="-6" y1="-6" x2="6" y2="6" stroke="white" strokeWidth="1.5" />
         <line x1="6" y1="-6" x2="-6" y2="6" stroke="white" strokeWidth="1.5" />
         <circle cx="0" cy="0" r="10" stroke="white" strokeWidth="1" fill="none" />

@@ -6,12 +6,14 @@ import { CoreOperations } from "@/components/core-operations"
 import { AboutUs } from "@/components/about-us"
 import { ContactSection } from "@/components/contact-section"
 import { Footer } from "@/components/footer"
+import { MapPath } from "@/components/map-path"
 import { LanguageProvider } from "@/lib/language-context"
 
 export default function Home() {
   return (
     <LanguageProvider>
-      <div className="min-h-screen bg-[#020617] relative">
+      <div className="min-h-screen bg-[#050505] relative">
+        <MapPath />
         <Header />
         <main className="relative z-[2]">
           <HeroSection />

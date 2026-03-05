@@ -4,26 +4,25 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Modern koyu zemin + teal vurgu paleti */
-  --background: #020617; /* slate-950 */
-  --foreground: #e5e7eb; /* zinc-200 */
-  --card: #020617;
-  --card-foreground: #e5e7eb;
-  --popover: #020617;
-  --popover-foreground: #e5e7eb;
-  --primary: #14b8a6; /* teal-500 */
-  --primary-foreground: #020617;
-  --secondary: #0b1120; /* slate-950 biraz daha açık panel */
-  --secondary-foreground: #e5e7eb;
-  --muted: #0b1120;
-  --muted-foreground: #9ca3af; /* zinc-400 */
-  --accent: #0f172a; /* slate-900 */
-  --accent-foreground: #e5e7eb;
+  --background: #050505;
+  --foreground: #ffffff;
+  --card: #0a0a0a;
+  --card-foreground: #ffffff;
+  --popover: #0a0a0a;
+  --popover-foreground: #ffffff;
+  --primary: #ffffff;
+  --primary-foreground: #050505;
+  --secondary: #111111;
+  --secondary-foreground: #ffffff;
+  --muted: #111111;
+  --muted-foreground: #888888;
+  --accent: #111111;
+  --accent-foreground: #ffffff;
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.577 0.245 27.325);
-  --border: #1f2937; /* slate-800 */
-  --input: #1f2937;
-  --ring: #14b8a6;
+  --border: #1a1a1a;
+  --input: #1a1a1a;
+  --ring: #333333;
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);

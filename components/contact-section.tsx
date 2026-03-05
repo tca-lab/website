@@ -30,14 +30,14 @@ export function ContactSection() {
     {
       icon: Mail,
       label: "E-posta",
-      value: "info@tcagrup.com",
-      href: "mailto:info@tcagrup.com",
+      value: "pazarlama@tcagrup.com",
+      href: "mailto:pazarlama@tcagrup.com",
     },
     {
       icon: Phone,
-      label: "TELEFON",
-      value: ["+90 530 104 01 03", "+90 544 236 62 01"],
-      href: "tel:+905301040103",
+      label: "WhatsApp",
+      value: "+90 5XX XXX XX XX",
+      href: "https://wa.me/905XXXXXXXXX",
     },
     {
       icon: Instagram,
@@ -51,7 +51,7 @@ export function ContactSection() {
     <section
       id="contact"
       ref={sectionRef}
-      className="py-20 lg:py-24 px-6 lg:px-8 bg-[#020617]"
+      className="py-24 lg:py-32 px-6 lg:px-8 bg-[#050505]"
     >
       <div className="max-w-3xl mx-auto">
         <div className="fade-up flex justify-center mb-6">
@@ -70,7 +70,7 @@ export function ContactSection() {
         </h2>
 
         <p
-          className="fade-up text-[#777777] text-center text-base lg:text-lg max-w-xl mx-auto mb-10 leading-relaxed"
+          className="fade-up text-[#777777] text-center text-base lg:text-lg max-w-xl mx-auto mb-12 leading-relaxed"
           style={{ transitionDelay: "200ms" }}
         >
           {t("contact.subtitle")}
@@ -94,9 +94,7 @@ export function ContactSection() {
                 {contact.label}
               </div>
               <div className="text-sm font-medium text-white group-hover:text-white/90 transition-colors">
-                {Array.isArray(contact.value)
-                  ? contact.value.map((line, idx) => <div key={idx}>{line}</div>)
-                  : contact.value}
+                {contact.value}
               </div>
             </a>
           ))}

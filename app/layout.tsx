@@ -13,8 +13,21 @@ export const metadata: Metadata = {
     "Seçkin ürünler için kesintisiz ithalat ve stratejik e-ticaret çözümleri. Global kaliteyi yerel pazarlarla buluşturuyoruz.",
   generator: "v0.app",
   icons: {
-    icon: "/tca-grup-logo.png",
-    apple: "/tca-grup-logo.png",
+    icon: [
+      {
+        url: "/icon-light-32x32.png",
+        media: "(prefers-color-scheme: light)",
+      },
+      {
+        url: "/icon-dark-32x32.png",
+        media: "(prefers-color-scheme: dark)",
+      },
+      {
+        url: "/icon.svg",
+        type: "image/svg+xml",
+      },
+    ],
+    apple: "/apple-icon.png",
   },
 }
 

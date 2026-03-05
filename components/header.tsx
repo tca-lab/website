@@ -56,7 +56,7 @@ export function Header() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-[cubic-bezier(0.22,1,0.36,1)] ${
         scrolled
-          ? "bg-[#020617]/95 backdrop-blur-xl border-b border-white/[0.06]"
+          ? "bg-[#050505]/95 backdrop-blur-xl border-b border-white/[0.06]"
           : "bg-transparent"
       }`}
     >
@@ -154,7 +154,7 @@ export function Header() {
             >
               <button
                 onClick={() => scrollToSection("contact")}
-                className={`ml-3 px-5 py-2 bg-[#14b8a6] text-[#020617] text-sm font-medium rounded-full hover:bg-[#0d9488] transition-all duration-300 ${
+                className={`ml-3 px-5 py-2 bg-white text-[#050505] text-sm font-medium rounded-full hover:bg-white/90 transition-all duration-300 ${
                   scrolled ? "ml-6" : ""
                 }`}
               >
@@ -205,7 +205,7 @@ export function Header() {
               </div>
               <button
                 onClick={() => scrollToSection("contact")}
-                className="mt-2 mx-4 px-5 py-2.5 bg-[#14b8a6] text-[#020617] text-sm font-medium rounded-full hover:bg-[#0d9488] transition-all duration-300"
+                className="mt-2 mx-4 px-5 py-2.5 bg-white text-[#050505] text-sm font-medium rounded-full hover:bg-white/90 transition-all duration-300"
               >
                 {t("nav.contactBtn")}
               </button>

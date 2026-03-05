@@ -39,7 +39,7 @@ export function CoreOperations() {
     <section
       id="operations"
       ref={sectionRef}
-      className="relative py-20 lg:py-24 px-6 lg:px-8 bg-[#020617]"
+      className="relative py-28 lg:py-36 px-6 lg:px-8 bg-[#050505]"
     >
       <div className="max-w-7xl mx-auto">
         <div className="fade-up flex justify-center mb-6">
@@ -58,32 +58,30 @@ export function CoreOperations() {
         </h2>
 
         <p
-          className="fade-up text-[#777777] text-center text-base lg:text-lg max-w-2xl mx-auto mb-12 leading-relaxed"
+          className="fade-up text-[#777777] text-center text-base lg:text-lg max-w-2xl mx-auto mb-20 leading-relaxed"
           style={{ transitionDelay: "200ms" }}
         >
           {t("ops.subtitle")}
         </p>
 
-        <div className="max-w-5xl mx-auto">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {operations.map((operation, index) => (
-              <div
-                key={index}
-                className="scale-in group relative p-10 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/[0.12] transition-all duration-500 cursor-default"
-                style={{ transitionDelay: `${index * 100}ms` }}
-              >
-                <div className="w-14 h-14 rounded-xl bg-white/[0.06] flex items-center justify-center mb-6 group-hover:bg-white/[0.1] transition-colors duration-500">
-                  <operation.icon className="h-6 w-6 text-white stroke-[1.5]" />
-                </div>
-                <h3 className="text-xl font-semibold text-white mb-4 tracking-tight">
-                  {t(operation.titleKey)}
-                </h3>
-                <p className="text-[#777777] leading-relaxed text-sm">
-                  {t(operation.descKey)}
-                </p>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+          {operations.map((operation, index) => (
+            <div
+              key={index}
+              className="scale-in group relative p-10 rounded-2xl border border-white/[0.06] bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/[0.12] transition-all duration-500 cursor-default"
+              style={{ transitionDelay: `${index * 100}ms` }}
+            >
+              <div className="w-14 h-14 rounded-xl bg-white/[0.06] flex items-center justify-center mb-6 group-hover:bg-white/[0.1] transition-colors duration-500">
+                <operation.icon className="h-6 w-6 text-white stroke-[1.5]" />
               </div>
-            ))}
-          </div>
+              <h3 className="text-xl font-semibold text-white mb-4 tracking-tight">
+                {t(operation.titleKey)}
+              </h3>
+              <p className="text-[#777777] leading-relaxed text-sm">
+                {t(operation.descKey)}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>

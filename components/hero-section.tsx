@@ -41,9 +41,9 @@ export function HeroSection() {
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(255,255,255,0.04)_0%,_transparent_60%)]" />
 
       <div className="relative z-10 max-w-5xl mx-auto text-center">
-        <div className="fade-up inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-[#14b8a6]/40 bg-[#0b1120]/80 backdrop-blur-sm mb-8">
-          <div className="w-1.5 h-1.5 rounded-full bg-teal-400 animate-pulse" />
-          <span className="text-xs font-medium text-[#9ca3af] tracking-wide">
+        <div className="fade-up inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/[0.08] bg-white/[0.04] backdrop-blur-sm mb-8">
+          <div className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
+          <span className="text-xs font-medium text-[#999999] tracking-wide">
             {t("hero.chip")}
           </span>
         </div>
